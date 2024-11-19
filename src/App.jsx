@@ -1,4 +1,6 @@
 import React from "react";
+import "mdb-react-ui-kit/dist/css/mdb.min.css";
+
 import Navbar from "./navbar.jsx";
 import About from "./pages/About.jsx";
 import Projects from "./pages/Projects.jsx";

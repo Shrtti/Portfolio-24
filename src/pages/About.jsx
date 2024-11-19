@@ -23,6 +23,12 @@ const About = () => {
           </p>
         </div>
       </div>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <hr className="about-line"></hr>
     </section>
   );
 };
