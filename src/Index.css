@@ -1,0 +1,33 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+  }
+  
+  * {
+    box-sizing: inherit;
+  }
+  
+  section {
+    min-height: 100vh; /* Ensure sections are at least full viewport height */
+    padding: 2rem;
+    background-color: #f9f9f9; /* Example background */
+  }
+  
+  #about {
+    background-color: #e0f7fa;
+  }
+  
+  #projects {
+    background-color: #ffecb3;
+  }
+  
+  #skills {
+    background-color: #c5e1a5;
+  }
+  
+  #contact {
+    background-color: #ffcdd2;
+  }
+  
