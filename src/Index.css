@@ -2,7 +2,7 @@ body, html {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    overflow-x: hidden; /* Prevent horizontal scrolling */
+    
   }
   
   * {
@@ -10,8 +10,8 @@ body, html {
   }
   
   section {
-    min-height: 100vh; /* Ensure sections are at least full viewport height */
-    padding: 2rem;
+    min-height: 100vh;
+    
     background-color: #f9f9f9; /* Example background */
   }
   
@@ -30,4 +30,5 @@ body, html {
   #contact {
     background-color: #ffcdd2;
   }
+  
   

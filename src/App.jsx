@@ -13,6 +13,7 @@ const App = () => {
     <>
       <Navbar />
       <div className="sections">
+      
         <section id="home">
           <Home />
         </section>
