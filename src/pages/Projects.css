@@ -1,0 +1,93 @@
+.projects-section {
+    background-color: #caf0f8;
+    padding: 4rem 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.projects-title {
+    font-size: 2.5rem;
+    color: #0077b6;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.projects-container {
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping for responsiveness */
+    gap: 2rem; /* Space between cards */
+    justify-content: center; /* Center the cards */
+}
+
+.project-card {
+    display: flex;
+    align-items: center;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 45%; /* Adjust width for side-by-side display */
+    max-width: 500px; /* Prevent cards from being too wide */
+}
+
+.project-card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.project-image {
+    flex: 1;
+    max-width: 150px;
+    height: auto;
+    border-radius: 10px;
+    margin-right: 1.5rem;
+    object-fit: cover;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.project-content {
+    flex: 2;
+}
+
+.project-title {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+.project-description {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 1rem;
+}
+
+.project-link {
+    display: inline-block;
+    color: white;
+    background-color: #0077b6;
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+.project-link:hover {
+    background-color: #005f87;
+}
+
+@media screen and (max-width: 768px) {
+    .projects-container {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 100%; /* Make cards take full width on smaller screens */
+    }
+
+    .project-image {
+        margin-right: 0;
+        margin-bottom: 1.5rem;
+    }
+}

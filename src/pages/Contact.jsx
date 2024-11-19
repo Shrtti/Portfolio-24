@@ -1,11 +1,12 @@
 import React from "react";
 import "./Contact.css";
 import contact from "./contact_me.jpg";
+import resume from "./resume.pdf";
 
 const Contact = () => {
   return (
     <section className="contact-section" id="contact">
-      <h2 className="contact-title">Get in Touch</h2>
+      <h2 className="contact-title">Contact me</h2>
       <div className="contact-container">
         <img src={contact} alt="Contact Me" className="contact-image" />
         <form className="contact-form">
@@ -38,7 +39,12 @@ const Contact = () => {
           <button type="submit" className="contact-button">
             Send Message
           </button>
-        
+          <button type="button" className="contact-button">
+            <a href={resume} download="Shruti_Natekar_Resume.pdf">
+              Download Resume
+            </a>
+          </button>
+
           <br></br>
           <div className="contact-icons">
           <a

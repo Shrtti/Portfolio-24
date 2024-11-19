@@ -89,7 +89,15 @@
   font-size: 1rem;
   cursor: pointer;
   transition: background-color 0.3s;
+  margin-right: 11%;
 }
+
+.contact-button a {
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+}
+
 
 .contact-button:hover {
   background-color: #005f87;
