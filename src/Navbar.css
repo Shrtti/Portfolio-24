@@ -35,14 +35,14 @@ body, html {
   display: inline;
 }
 
-.navbar-links a {
+.navbar-links li {
   color: white;
   text-decoration: none;
   font-size: 1rem;
   transition: color 0.3s;
 }
 
-.navbar-links a:hover {
+.navbar-links li:hover {
   color: #ade8f4;
 }
 
@@ -86,7 +86,7 @@ body, html {
     display: flex;
   }
 
-  .navbar-links a {
+  .navbar-links li {
     font-size: 1.2rem;
     text-align: center;
   }

@@ -12,23 +12,9 @@ body, html {
   section {
     min-height: 100vh;
     
-    background-color: #f9f9f9; /* Example background */
+    background-color: #f9f9f9; 
   }
   
-  #about {
-    background-color: #e0f7fa;
-  }
   
-  #projects {
-    background-color: #ffecb3;
-  }
-  
-  #skills {
-    background-color: #c5e1a5;
-  }
-  
-  #contact {
-    background-color: #ffcdd2;
-  }
   
   
