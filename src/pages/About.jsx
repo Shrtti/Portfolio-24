@@ -1,6 +1,7 @@
 import React from "react";
 import "./About.css";
 import profileImage from "./student_1.jpg"; 
+import resume from "./resume.pdf"; 
 
 const About = () => {
   return (
@@ -21,6 +22,11 @@ const About = () => {
             through community contributions. Recently I have developed keen interest
             in Web Development.
           </p>
+          <br></br>
+          <br></br>
+          <a href={resume} className="download-btn">
+  Download Resume
+</a>
         </div>
       </div>
       <br></br>
