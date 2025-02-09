@@ -1,42 +1,45 @@
-.projects-section {
+.exp-section {
     background-color: #caf0f8;
     padding: 4rem 2rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.projects-title {
+.exp-title {
     font-size: 2.5rem;
     color: #0077b6;
     margin-bottom: 2rem;
     text-align: center;
 }
 
-.projects-container {
+.exp-container {
     display: flex;
     flex-wrap: wrap; 
     gap: 2rem; 
     justify-content: center; 
 }
 
-.project-card {
+.exp-card {
     display: flex;
-    align-items: center;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: space-between; 
     background: white;
     border: 1px solid #ddd;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     padding: 1.5rem;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    width: 45%; 
-    max-width: 500px; 
+    width: 45%;
+    max-width: 500px;
+    min-height: 350px; 
 }
 
-.project-card:hover {
+.exp-card:hover {
     transform: scale(1.02);
     box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
 }
 
-.project-image {
+.exp-image {
     flex: 1;
     max-width: 150px;
     height: auto;
@@ -46,23 +49,24 @@
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.project-content {
+.exp-content {
     flex: 2;
 }
 
-.project-title {
+.exps-title {
     font-size: 1.5rem;
     color: #333;
     margin-bottom: 0.5rem;
+    padding-top: 0.9rem;
 }
 
-.project-description {
+.exp-description {
     font-size: 1rem;
     color: #555;
     margin-bottom: 1rem;
 }
 
-.project-link {
+.exp-link {
     display: inline-block;
     color: white;
     background-color: #0077b6;
@@ -73,20 +77,20 @@
     transition: background-color 0.3s;
 }
 
-.project-link:hover {
+.exp-link:hover {
     background-color: #005f87;
 }
 
 @media screen and (max-width: 768px) {
-    .projects-container {
+    .exp-container {
         flex-direction: column;
     }
 
-    .project-card {
+    .exp-card {
         width: 100%; 
     }
 
-    .project-image {
+    .exp-image {
         margin-right: 0;
         margin-bottom: 1.5rem;
     }

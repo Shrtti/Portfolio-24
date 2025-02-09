@@ -6,16 +6,18 @@
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
     color: #c0eef6;
-    text-align: center;
+    text-align: left;
     position: relative;
+    
   }
   
-  .home .home-content {
+  .home .home-content {    
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     max-width: 600px;
+    margin-left: 10%;
   }
   
   .home h1 {
@@ -28,17 +30,19 @@
   }
   
   .cta-btn {
-    background-color: #0077b6;
+    
     color: white;
-    padding: 1rem 2rem;
+    
     border: none;
     cursor: pointer;
     text-decoration: none;
     border-radius: 5px;
     font-size: 1.2rem;
+    transition: color 0.5s;
   }
   
   .cta-btn:hover {
-    background-color: #005f8d;
+    color: rgb(127, 240, 255);
+    font-size: 1.2rem; 
   }
   
